@@ -1,0 +1,196 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [ "Hi", "How are you", "Is anyone there?", "Hello", "Good day" ],
+            "responses": [ "Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?" ],
+            "context_set": ""
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [ "Bye", "See you later", "Goodbye" ],
+            "responses": [ "See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon." ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [ "Thanks", "Thank you", "That's helpful" ],
+            "responses": [ "Happy to help!", "Any time!", "My pleasure" ]
+        },
+        {
+            "tag":"science",
+            "patterns":["what is science","science","defination of science","define science"],
+            "responses":["the study of and knowledge about the physical world and natural laws"]
+        },
+        {
+            "tag":"thermodynamics",
+            "patterns": ["what is thermodynamics","define thermodynamics","define thermodynamics"],
+            "responses":["thermodynamics is the study of the relations between heat, work, temperature, and energy. The laws of thermodynamics describe how the energy in a system changes and whether the system can perform useful work on its surroundings."]
+        },
+        {
+            "tag":"laws of thermodynamics",
+            "patterns":["laws of thermodynamics","what are the laws of thermodynamics","three laws of thermodynamics","define laws of thermodynamics"],
+            "responses":["First law of thermodynamics: Energy can neither be created nor be destroyed, it can only be transferred from one form to another. Second law of thermodynamics: The entropy of any isolated system always increases. Third law of thermodynamics: The entropy.\n"]
+        },
+        {
+            "tag":"cytology",
+            "patterns":["what is cytology","explain cytology","cytology"],
+            "responses":["the study of the structure and function of plant and animal cells"]
+        },
+        {
+            "tag" :"solar system",
+            "patterns":["solar system","what is solar system"],
+            "responses":["The Solar System is the gravitationally bound system of the Sun and the objects that orbit it. It formed 4.6 billion years ago"]
+        },
+        {
+            "tag":"sun",
+            "patterns":["how far is the sun","distance of earth from sun ","earth and sun distnace"],
+            "responses":["Earth's average distance to the Sun is about 93 million miles (150 million kilometers) from the Sun."]
+        },
+        {
+            "tag":"moon",
+            "patterns":["how far is the moon","distance of earth from moon ","earth and moon distnace"],
+            "responses":["The average distance to the moon is 382,500 kilometers."]
+        },
+        {
+            "tag":"universe",
+            "patterns":["What is the universe made of","universe is made up of","\"What is the universe made up of"],
+            "responses":["The Universe is thought to consist of three types of substance: normal matter, 'dark matter' and 'dark energy'. Normal matter consists of the atoms that make up stars, planets, human beings and every other visible object in the Universe."]
+        },
+        {
+            "tag":"life",
+            "patterns":["How did life begin","how was life started"],
+            "responses":["Many scientists believe that RNA, or something similar to RNA, was the first molecule on Earth to self-replicate and begin the process of evolution that led to more advanced forms of life, including human beings."]
+        },
+        {
+            "tag":"wavelength",
+            "patterns":["what is wavelength","wavelength","define wavelenght"],
+            "responses":["Wavelength is the distance between identical points (adjacent crests) in the adjacent cycles of a waveform signal propagated in space or along a wire"]
+        },
+        {
+            "tag":"chemistry",
+            "patterns":["what is chemistry","explain chemistry","define chemistry","chemistry"],
+            "responses":["Chemistry is a branch of natural science that deals principally with the properties of substances, the changes they undergo, and the natural laws that describe these changes"]
+        },
+        {
+            "tag":"solar system",
+            "patterns":["how many planets in solar system","how many planets are there in solar system","solar system has how many planets"],
+            "responses":["Our solar system is made up of a star, eight planets, and countless smaller bodies such as dwarf planets, asteroids, and comets"]
+        },
+        {
+            "tag":"gravitation",
+            "patterns":["what is gravitation","explain gravitation","gravitation","define gravitation","gravity","what is gravity"],
+            "responses":["Gravity, also called gravitation, is a force that exists among all material objects in the universe."]
+        },
+        {
+            "tag":"diamond",
+            "patterns":["What is the hardest natural substance on Earth","hardest natural substance","hardest natural substance on earth","diamond"],
+            "responses":["Diamond is the hardest material on earth"]
+        },
+        {
+            "tag":"light",
+            "patterns": ["whatt is the speed of light","speed of light","how fast is the light"],
+            "responses":["The speed of light in vacuum, commonly denoted c, is a universal physical constant that is exactly equal to 299,792,458 metres per second ("]
+        },
+        {
+            "tag": "sound",
+            "patterns":["what is the speed of sound","speed of sound","how fast is the sound"],
+            "responses":["The velocity of sound in air at 20oC is 343.2 m/s which translates to 1,236 km/h."]
+        },
+        {
+            "tag":"metals",
+            "patterns":["what are metals","define metals","metals"],
+            "responses":["metal, any of a class of substances characterized by high electrical and thermal conductivity as well as by malleability, ductility, and high reflectivity of light."]
+        },
+        {
+            "tag":"non metals",
+            "patterns":["what are non metals","define non  metals","non metals"],
+            "responses":["Non-metals are those which lack all the metallic attributes. They are good insulators of heat and electricity. They are mostly gases and sometimes liquid. Some of then are even solid at room temperature like Carbon, sulphur and phosphorus."]
+        },
+        {
+            "tag":"water",
+            "patterns":["boiling point of water","what is the boiling point of water","at what temperature does water boil"],
+            "responses":["The boiling temperature of water changes depending on the pressure in the atmosphere. Purified water is boiled at 212 degrees Fahrenheit (100 degrees Celsius) when it is at its boiling point above sea level."]
+        },
+        {
+            "tag":"dna",
+            "patterns":["What does DNA stand for","DNA","define dna","dna stands for"],
+            "responses":["DNA, or deoxyribonucleic acid, is the hereditary material in humans and almost all other organisms"]
+        },
+        {
+            "tag":"periodic table",
+            "patterns":["how many elements are there in the periodic table","number of elements in periodic table","no of elements in periodic table"],
+            "responses": ["at present, 118 elements are known to us. All these have different properties. Out of these 118, only 94 are naturally occurring."]
+        },
+        {
+            "tag":"human",
+            "patterns":["How many bones are in the human body","no of bones in human","number of bones in human "],
+            "responses":["There are typically around 270 bones in human infants, which fuse to become 206 to 213 bones in the human adult."]
+        },
+        {
+            "tag":"black hole",
+            "patterns":["black hole","what is a black hole","define black hole"],
+            "responses":["A black hole is a region of spacetime where gravity is so strong that nothing, including light or other electromagnetic waves, has enough energy to escape its event horizon.["]
+        },
+        {
+            "tag":"resistance",
+            "patterns":["what is resistance","resistance","define resistance"],
+            "responses":["Resistance is a measure of the opposition to current flow in an electrical circuit. Resistance is measured in ohms, symbolized by the Greek letter omega "]
+        },
+        {
+            "tag":"photosynthesis?",
+            "patterns":["photosynthesis","what is photosynthesis","define photosynthesis "],
+            "responses":["Photosynthesis is the process by which plants use sunlight, water, and carbon dioxide to create oxygen and energy in the form of sugar"]
+        },
+        {
+            "tag":"matter",
+            "patterns":[" What are the three states of matter","three state of matter","states of matter","How many states of matter are there"],
+            "responses": ["There are three states of matter: solid; liquid and gas. They have different properties, which can be explained by looking at the arrangement of their particles"]
+        },
+        {
+            "tag":"atmosphere",
+            "patterns":["what is atmosphere","atmosphere","define atmosphere","What is the most abundant gas in the Earth's atmosphere"],
+            "responses":["What is atmosphere in short answer?\nAn atmosphere is made of the layers of gases surrounding a planet or other celestial body. Earth's atmosphere is composed of about 78% nitrogen, 21% oxygen, and one percent other gases."]
+        },
+        {
+            "tag":"fastest animal",
+            "patterns":["What is the fastest land animal in the world","fastest land animal in the world","fastest land animal"],
+            "responses":["Cheetahs are the world's fastest land animal, capable of reaching speeds of up to 70 mph."]
+        },
+        {
+            "tag":"largest desert",
+            "patterns":["What is the largest desert on Earth","largest desert on Earth","biggest desert on Earth"],
+            "responses":["Sahara Desert: 9.2 million km² (3.5 million square miles)."]
+        },
+        {
+            "tag": "Chlorophyll ",
+            "patterns": [
+                "Chlorophyll ",
+                "what is Chlorophyll ",
+                "define Chlorophyll "
+            ],
+            "responses": [
+                "Chlorophyll is a pigment present in all green plants and a few other organisms. It is required for photosynthesis, which is the process by which light energy is converted into chemical energy."
+            ]
+        },
+        {
+            "tag":"global warming",
+            "patterns":["global warming","explain global warming","what is global warming"],
+            "responses":["Global warming is the long-term heating of Earth's surface observed since the pre-industrial period (between 1850 and 1900) due to human activities, primarily fossil fuel burning, which increases heat-trapping greenhouse gas levels in Earth's atmosphere."]
+        },
+        {
+            "tag":"acid",
+            "patterns":["what is an acid","acid","what is acid","define acid"],
+            "responses":["A chemical that gives off hydrogen ions in water and forms salts by combining with certain metals"]
+        },
+        {
+            "tag":"base",
+            "patterns":["what is a base","base","what is acid","define base"],
+            "responses":[" In chemistry, a substance that can accept hydrogen ions in water and can neutralize an acid"]
+        },
+        {
+            "tag":"milky way",
+            "patterns":["milky way","what is milky way","define milky way"],
+            "responses":["The Milky Way is a huge collection of stars, dust and gas. It's called a spiral galaxy because if you could view it from the top or bottom, it would look like a spinning pinwheel"]
+        }
+    ]
+}
